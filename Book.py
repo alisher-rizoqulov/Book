@@ -4,7 +4,7 @@ class BOOK:
         self.name = name
         self.author = author
         self.count = count
-        self.price = 
+        self.price = price
 
     def writee(self, ptr):
         ptr.write(f"{self.id},{self.name},{self.author},{self.count},{self.price}\n")
